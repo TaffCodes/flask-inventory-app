@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-<title>Inventory Managmnet App</title>
+<title>FarmKenyaInventory Management App</title>
 {% endblock %}
 
 
@@ -47,13 +47,12 @@
                                     <label for="fromLocation">From</label>
                                     <select id="fromLocation" class="form-control" name="fromLocation">
                                         <option selected value="">Choose...</option>
-                                        {# 
                                         {% if locations|length > 0 %}
                                         {% for location in locations%}
                                         <option value="{{location.location_id}}">{{location.location_id}}</option>
                                         {% endfor %}
                                         {% endif %}
-                                        #}
+                                    
                                     </select>
                                 </div>
                                 <div class="col-md-6">
